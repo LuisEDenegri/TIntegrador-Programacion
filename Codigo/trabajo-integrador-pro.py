@@ -53,7 +53,7 @@ def merge_sort(lista):
 
         merge_sort(izquierda)
         merge_sort(derecha)
-        # se llama recursivamente a la función para ordenar cada mitad.
+        # se llama recursivamente a la funcion para ordenar cada mitad.
         i = 0
         j = 0
         k = 0
@@ -67,7 +67,7 @@ def merge_sort(lista):
                 lista[k] = derecha[j]
                 j += 1
             k += 1
-        #Fusiona las listas ordenadas comparando elementos de izquierda y derecha y colocándolos en orden en la lista principal
+        #Fusiona las listas ordenadas comparando elementos de izquierda y derecha y colocandolos en orden en la lista principal
 
         while i < len(izquierda):
             lista[k] = izquierda[i]
@@ -98,7 +98,7 @@ if __name__ == "__main__":
     print("Ordenado con Merge Sort:", datos_merge)
     
     
-    # Búsqueda Binaria
+    # Busqueda Binaria
     valor_buscar = 23
     posicion = busqueda_binaria(datos_merge, valor_buscar)
     if posicion != -1:

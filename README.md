@@ -44,7 +44,6 @@ Los algoritmos de ordenamiento organizan elementos en una lista segun un criteri
   - 🔍 Busqueda Binaria
   - 🔄 Bubble Sort
   - 🔗 Merge Sort
-  - ⚡ Quick Sort
 
 - 📄 **README.md**  
   Documentacion del proyecto, desarrollo del tema, instrucciones de uso y reflexion.
